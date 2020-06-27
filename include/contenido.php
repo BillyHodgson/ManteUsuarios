@@ -33,7 +33,7 @@
                     <td><?php echo $usuario['telefono'];?></td>                  
                     <td>
                         <a href="#" class="edit"><i class="material-icons" >&#xE254;</i></a>
-                        <a href="#" class="delete"><i class="material-icons">&#xE872;</i></a>
+                        <a href="mantenimiento.php?accion=Eliminar&posicion=<?php echo $indice;?>" class="delete"><i class="material-icons">&#xE872;</i></a>
                     </td>
                 </tr>
                 
